@@ -1,0 +1,2 @@
+INFO:
+all the times and results obtained for the scalability studies were obtained using the earth-large.pgm image

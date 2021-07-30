@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#omp version
+gcc -O3 -w -fopenmp -o blur.omp blur.omp.c -lm
+
+#mpi version
+#module load openmpi/4.0.3/gnu/9.3.0
+mpicc -O3 -w -o blur.mpi blur.mpi.c -lm
+
